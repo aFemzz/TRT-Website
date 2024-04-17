@@ -97,6 +97,9 @@
                 <input type="submit" class="btn btn-primary" value="Register" name="submit">
             </div>
         </form>
+        <div class="register-navigation">
+            Already registered ? <a href="login.php">Login Here</a>
+        </div>
     </div>
     
 </body>
