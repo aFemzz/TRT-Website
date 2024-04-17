@@ -15,27 +15,35 @@
         //     print_r($_POST);
         // }
         
+        // Form submission check
         if(isset($_POST["submit"])) {
+
+            // Retrieving the filled data from the form 
             $fullname = $_POST["fullname"];
             $email = $_POST["email"];
             $password = $_POST["password"];
             $passwordRepeat = $_POST["repeat_password"];
 
-            $errors = array();
+            $errors = array(); //
 
             $passwordHash = password_hash($password, PASSWORD_DEFAULT);
 
+            // Checks if the fields are empty, in case of empty it returns an alert
             if (empty($fullname) OR empty($email) OR empty($password) OR empty($passwordRepeat)){
                 array_push($errors, "All fields are required");
             }
 
+            // Checks if the email are valid using filter_var in case of empty it returns an alert
             if(!filter_var($email, FILTER_VALIDATE_EMAIL)){
                 array_push($errors, "Email is not valid");
             }
 
-            if(strlen($password) < 8 ){
+            // Check if password 6 characters long
+            if(strlen($password) < 6 ){
                 array_push($errors, "Password must be at least 8 characters!");
             }
+
+            // Check if repeat password 6 is the same
             if($password !== $passwordRepeat) {
                 array_push($errors, "Password must be the same!");
             }
@@ -55,7 +63,7 @@
                     echo "<div class = 'alert alert-danger'> $error </div>";
                 }
             }else{
-
+                // Push the data into the database
                 $sql = "INSERT INTO users (full_name, email, password) VALUES (?, ?, ?)";
                 $stmt = mysqli_stmt_init($conn);
                 $prepareStmt = mysqli_stmt_prepare($stmt, $sql);
@@ -67,10 +75,11 @@
                     die("something is wrong");
                 }
             }   
-
         }
 
         ?>
+
+        <!-- Regis form  -->
         <form action="registration.php" method="post">
             <div class="form-group">
                 <input type="text" class="form-control" name="fullname" placeholder = "Full Name :">
