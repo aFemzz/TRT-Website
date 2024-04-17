@@ -1,19 +1,25 @@
 body{
-    padding: 10%;
+    /* padding: 10%; */
 }
 
-.container{
+/* Sign in, Registration shiz */
+/* .container{
     max-width: 600px;
     margin: 0 auto;
     padding : 50px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 
 .form-group{
     margin-bottom: 30px;
 }
 
+.c-item{
+    height: 555px;
+}
 
-body .container .register-navigation {
-    margin-top: 100px;
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
 }
