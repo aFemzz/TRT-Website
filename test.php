@@ -12,6 +12,8 @@
 </head>
 <body>
 
+<section class="navbar">
+
     <div class="container-fluid">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
             <div class="container">
@@ -36,82 +38,86 @@
                         <li class="nav-item">
                             <a href="#" class="nav-link">Contact Us</a>
                         </li>
+                        <li class="nav-item">
+                            <a href="login.php" class="nav-link" >Log In / Register</a>
+                        </li>
                     </ul>
                 </div>
             </div>
         </nav>
     </div>
 
+
+</section>
+
+<section class="carousel">
+
     <div id="hero-carousel" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
-          <button type="button" data-bs-target="#hero-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
-        </div>
-    
         <div class="carousel-inner">
           <div class="carousel-item active c-item">
             <img src="assets/Machine.jpg" class="d-block w-100 c-img" alt="Slide 1">
             <div class="carousel-caption top-0 mt-5 d-md-block justify-content-center">
-              <h1 class="mt-5 fw-bolder text-start fs-1">BEACON OF <span class="text-danger">INTEGRITY</span></h1>
-              <p class="mt-5 text-start fs-5 col-8">Committed to excellence in every aspect of our operations, we prioritize safety, quality, and reliability above all else.
-                With a steadfast dedication to ethical practices and transparency, we forge enduring partnerships built on trust and mutual respect. 
-              </p>
-              <a type="button" class="btn btn-primary float-start me-2" href="#contact_us">Contact Us</a>
+              <h1 class="mt-5 fw-bolder text-start fs-1">BEACON OF <span class="text-danger">INTEGRITY</span>
+              </h1>
+              <p class="mt-5 text-start fs-4 col-8">Committed to excellence in every aspect of our operations, we prioritize safety, quality, and reliability above all else. With a steadfast dedication to ethical practices and transparency, we forge enduring partnerships built on trust and mutual respect. </p>
+              <a type="button" class="btn btn-primary float-start me-2" href="login.php">Contact Us</a>
             </div>
           </div>
-
           <div class="carousel-item c-item">
             <img src="assets/mining.jpg" class="d-block w-100 c-img" alt="Slide 2">
             <div class="carousel-caption top-0 mt-5 d-md-block justify-content-center">
-                <h1 class="mt-5 fw-bolder text-start fs-1"><span class="text-danger">PREMIERE DESTINATION </span><br>FOR HEAVY MACHINERY</h1>
-                <p class="mt-4 text-start fs-5 col-8">We specialize in delivering top-of-the-line equipment and unparalleled service. From construction to manufacturing,
-                     our innovative solutions are designed to optimize performance, enhance productivity, and maximize efficiency. 
-                </p>
-                <a type="button" class="btn btn-primary float-start me-2" href="#contact_us">Contact Us</a>
+              <h1 class="mt-5 fw-bolder text-start fs-1">
+                <span class="text-danger">PREMIERE DESTINATION </span>
+                <br>FOR HEAVY MACHINERY
+              </h1>
+              <p class="mt-4 text-start fs-4 col-8">We specialize in delivering top-of-the-line equipment and unparalleled service. From construction to manufacturing, our innovative solutions are designed to optimize performance, enhance productivity, and maximize efficiency. </p>
+              <a type="button" class="btn btn-primary float-start me-2" href="#contact_us">Contact Us</a>
             </div>
           </div>
-
           <div class="carousel-item c-item">
             <img src="assets/Steamroller.jpg" class="d-block w-100 c-img" alt="Slide 3">
             <div class="carousel-caption top-0 mt-5 d-md-block justify-content-center">
-                <h1 class="mt-5 fw-bolder text-start fs-1">WHERE INNOVATION MEETS <br><span class="text-danger">EXCELLENCE</span></h1>
-                <p class="mt-4 text-start fs-5 col-8">We pride ourselves on our commitment to quality, reliability, and customer satisfaction. 
-                    From groundbreaking technologies to unparalleled customer service, we are dedicated to empowering our clients and stakeholders, driving progress, and shaping the future 
-                </p>
-                <a type="button" class="btn btn-primary float-start me-2" href="#contact_us">Contact Us</a>
+              <h1 class="mt-5 fw-bolder text-start fs-1">WHERE INNOVATION MEETS <br>
+                <span class="text-danger">EXCELLENCE</span>
+              </h1>
+              <p class="mt-4 text-start fs-4 col-8">We pride ourselves on our commitment to quality, reliability, and customer satisfaction. From groundbreaking technologies to unparalleled customer service, we are dedicated to empowering our clients and stakeholders, driving progress, and shaping the future </p>
+              <a type="button" class="btn btn-primary float-start me-2" href="#contact_us">Contact Us</a>
             </div>
-            
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-
-      <div class="container">
-        <div class="row">
-            <div class="col mt-5">
-                <img src="assets/excavator.png" alt="excavator_img" class="excavator-img img-fluid">
-            </div>
-            <div class="col-6  mt-5">
-                <h2 class="fs-1" style="font-weight: 1000;"> WHY CHOOSE <span class="text-danger">US?</span></h2>
-                <p class="text-start fs-5 ">From cutting-edge equipment to comprehensive service, we offer tailored solutions that empower industries
-                     to thrive. Choose IronGiant Works for unmatched quality, reliability, and performance in heavy machinery solutions.
-                </p>
-                <p class="text-start fs-5">Our portfolio speaks volumes about our expertise and commitment to excellence. From large-scale infrastructure 
-                    projects to intricate industrial installations, we've delivered success at every turn. 
-               </p>
-               <p class="text-start fs-5">For more information click Read More
-               </p>
-               <button type="button" class="btn btn-outline-danger btn-lg">Read More</button>
-            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#hero-carousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#hero-carousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
     </div>
+
+</section>
+
+
+
+<section class="why-choose-us">
+
+    <div class="container">
+        <div class="row">
+          <div class="col mt-5">
+            <img src="assets/excavator.png" alt="excavator_img" class="excavator-img img-fluid">
+          </div>
+          <div class="col-6  mt-5">
+            <h2 class="fs-1" style="font-weight: 1000;"> WHY CHOOSE <span class="text-danger">US?</span>
+            </h2>
+            <p class="text-start fs-5 ">From cutting-edge equipment to comprehensive service, we offer tailored solutions that empower industries to thrive. Choose IronGiant Works for unmatched quality, reliability, and performance in heavy machinery solutions. </p>
+            <p class="text-start fs-5">Our portfolio speaks volumes about our expertise and commitment to excellence. From large-scale infrastructure projects to intricate industrial installations, we've delivered success at every turn. </p>
+            <p class="text-start fs-5">For more information click Read More </p>
+            <button type="button" class="btn btn-outline-danger btn-lg">Read More</button>
+          </div>
+        </div>
+      </div>
+
+</section>
 
     <div class="REMINDER, ADD THE PRODUCT BRAND CATALOGUE"></div>
     

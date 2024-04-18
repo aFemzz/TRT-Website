@@ -28,3 +28,8 @@ body{
     max-width: 100%; /* Adjust the max-width as needed */
     height: auto;
 }
+
+.brand-img-landing-page{
+    width: auto;
+    height: 200px;
+}
