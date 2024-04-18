@@ -251,36 +251,46 @@
 </div>
 
 <script>
-    function excavator_button(){
+
+function excavator_button() {
         var x = document.getElementById("excavator-list");
+        var y = document.getElementById("loader-list");
+        var z = document.getElementById("bulldozer-list");
 
-        if(x.style.display === "none"){
-            x.display = "inline"
-        }
-        else {
-            x.style.display = "none"
-        }
-    }
-
-    function loader_button(){
-        var x = document.getElementById("loader-list");
-
-        if(x.style.display === "none"){
-            x.display = "inline"
-        }
-        else {
-            x.style.display = "none"
+        if (x.style.display === "none") {
+            x.style.display = "inline";
+            y.style.display = "none";
+            z.style.display = "none";
+        } else {
+            x.style.display = "none";
         }
     }
 
-    function bulldozer_button(){
-        var x = document.getElementById("bulldozer-list");
+    function loader_button() {
+        var x = document.getElementById("excavator-list");
+        var y = document.getElementById("loader-list");
+        var z = document.getElementById("bulldozer-list");
 
-        if(x.style.display === "none"){
-            x.display = "inline"
+        if (y.style.display === "none") {
+            y.style.display = "inline";
+            x.style.display = "none";
+            z.style.display = "none";
+        } else {
+            y.style.display = "none";
         }
-        else {
-            x.style.display = "none"
+    }
+
+    function bulldozer_button() {
+        var x = document.getElementById("excavator-list");
+        var y = document.getElementById("loader-list");
+        var z = document.getElementById("bulldozer-list");
+
+        if (z.style.display === "none") {
+            z.style.display = "inline";
+            x.style.display = "none";
+            y.style.display = "none";
+        } else {
+            z.style.display = "none";
         }
     }
 
