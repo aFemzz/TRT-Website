@@ -1,14 +1,68 @@
 body{
-    padding: 10%;
+    /* padding: 10%; */
+    background-color: rgb(240, 240, 240);
 }
 
-.container{
+/* Sign in, Registration shiz */
+/* .container{
     max-width: 600px;
     margin: 0 auto;
     padding : 50px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
+} */
 
 .form-group{
     margin-bottom: 30px;
 }
+
+.c-item{
+    height: 555px;
+}
+
+.c-img{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.6);
+}
+
+.excavator-img {
+    max-width: 100%; /* Adjust the max-width as needed */
+    height: auto;
+}
+
+.brand-img-landing-page img {
+    max-width: 300px; /* Adjust the maximum width as per your requirement */
+    height: auto;
+}
+
+/* Custom CSS for transparent container in brands catalogue*/
+.transparent-container {
+    background-color: rgba(255, 255, 255, 0.5); 
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.transparent-container:hover {
+    background-color: rgba(255, 255, 255, 0.5); 
+}
+
+.menu-item {
+    display: inline-block;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+.btn-transparent {
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.btn-transparent:hover {
+    color: red;
+}
+
