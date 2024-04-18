@@ -76,71 +76,215 @@
         <div class="col-md-6">
             <div class="transparent-container text-center">
                 <div class="menu-item" >
-                    <a href="#" onclick="handleMenuClick('Excavator')">Excavator</a>
+                    <button  onclick="excavator_button()">Excavator</button>
                 </div>
                 <div class="menu-item">
-                    <a href="#">Loader</a>
+                    <button  onclick="loader_button()">Loader</button>
                 </div>
                 <div class="menu-item">
-                    <a href="#">Bulldozer</a>
+                    <button onclick="bulldozer_button()">Bulldozer</button>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="container mt-5">
-    <div class="row justify-content-center">
-        <div class="col-md-3"> <!-- Adjust the column size as needed -->
-            <a href="page1.html" class="card-link">
-                <div class="card mb-3">
-                    <img src="assets/komatsu_catalogue/Komatsu PC2000-11 Hydraulic Excavator.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                        <h5 class="card-title">Komatsu PC2000-11 Hydraulic Excavator </h5>
-                        <p class="card-text">The Komatsu PC2000-11 is a high-performance hydraulic excavator designed for large-scale mining and quarrying operations.</p>
+    <!-- Excavator Section -->
+    <div class="container mt-5" id="excavator-list" style="display: none;" >
+        <div class="row justify-content-center">
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page1.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/excavator/Komatsu PC2000-11 Hydraulic Excavator.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu PC2000-11 Hydraulic Excavator </h5>
+                            <p class="card-text">The Komatsu PC2000-11 is a high-performance hydraulic excavator designed for large-scale mining and quarrying operations.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
+                </a>
+            </div>
 
-        <div class="col-md-3"> <!-- Adjust the column size as needed -->
-            <a href="page2.html" class="card-link">
-                <div class="card mb-3">
-                    <img src="assets/komatsu_catalogue/Komatsu PC4000-11 Hydraulic Excavator.png" class="card-img-top" alt="Komatsu-PC4000-11-Hydraulic-Excavator-picture">
-                    <div class="card-body">
-                        <h5 class="card-title">Komatsu PC4000-11 Hydraulic Excavator</h5>
-                        <p class="card-text">The Komatsu PC4000-11 is an ultra-large hydraulic excavator engineered for heavy-duty mining and earthmoving tasks. </p>
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page2.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/excavator/Komatsu PC4000-11 Hydraulic Excavator.png" class="card-img-top" alt="Komatsu-PC4000-11-Hydraulic-Excavator-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu PC4000-11 Hydraulic Excavator</h5>
+                            <p class="card-text">The Komatsu PC4000-11 is an ultra-large hydraulic excavator engineered for heavy-duty mining and earthmoving tasks. </p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
+                </a>
+            </div>
 
-        <div class="col-md-3"> <!-- Adjust the column size as needed -->
-            <a href="page3.html" class="card-link">
-                <div class="card mb-3">
-                    <img src="assets/komatsu_catalogue/Komatsu PC1250-11 Hydraulic Excavator.png" class="card-img-top" alt="Komatsu-PC1250-11-Hydraulic-Excavator-picture">
-                    <div class="card-body">
-                        <h5 class="card-title">Komatsu PC1250-11 Hydraulic Excavator</h5>
-                        <p class="card-text">The Komatsu PC1250-11 is a versatile hydraulic excavator suitable for a wide range of applications, including construction, quarrying, and material handling.</p>
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page3.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/excavator/Komatsu PC1250-11 Hydraulic Excavator.png" class="card-img-top" alt="Komatsu-PC1250-11-Hydraulic-Excavator-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu PC1250-11 Hydraulic Excavator</h5>
+                            <p class="card-text">The Komatsu PC1250-11 is a versatile hydraulic excavator suitable for a wide range of applications, including construction, quarrying, and material handling.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
-        </div>
+                </a>
+            </div>
 
-        <div class="col-md-3"> <!-- Adjust the column size as needed -->
-            <a href="page4.html" class="card-link">
-                <div class="card mb-3">
-                    <img src="assets/komatsu_catalogue/Komatsu PC210LCi-11.png" class="card-img-top" alt="Komatsu-PC210LCi-11-picture">
-                    <div class="card-body">
-                        <h5 class="card-title">Komatsu PC210LCi-11 Intelligent Machine Control Excavator</h5>
-                        <p class="card-text">The Komatsu PC210LCi-11 is an innovative hydraulic excavator equipped with Intelligent Machine Control technology.</p>
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page4.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/excavator/Komatsu PC210LCi-11.png" class="card-img-top" alt="Komatsu-PC210LCi-11-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu PC210LCi-11 Intelligent Machine Control Excavator</h5>
+                            <p class="card-text">The Komatsu PC210LCi-11 is an innovative hydraulic excavator equipped with Intelligent Machine Control technology.</p>
+                        </div>
                     </div>
-                </div>
-            </a>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Loader Section -->
+    <div class="container mt-5" id="loader-list" style="display: none;">
+        <div class="row justify-content-center">
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page1.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/loader/Komatsu-WA320.png" class="card-img-top" alt="Komatsu-WA320-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu WA320 </h5>
+                            <p class="card-text">The WA320 is a versatile wheel loader designed for a wide range of applications, including construction, agriculture, and waste management. It offers a powerful engine, efficient hydraulic system, and comfortable operator cab for increased productivity and operator comfort..</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page2.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/loader/Komatsu-WA470.png" class="card-img-top" alt="Komatsu-WA470-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu WA470</h5>
+                            <p class="card-text"> The WA470 is a mid-size wheel loader known for its high performance and reliability in demanding environments such as mining, quarrying, and heavy construction. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page3.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/loader/Komatsu-WA500.png" class="card-img-top" alt="Komatsu-WA500-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu WA500</h5>
+                            <p class="card-text">The WA500 is a large wheel loader suitable for heavy-duty applications, including loading trucks, stockpiling, and material handling in ports and industrial facilities. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page4.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/loader/WA600-Picture.png" class="card-img-top" alt="Komatsu-D475-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu WA600</h5>
+                            <p class="card-text">The WA600 is a heavyweight wheel loader designed for large-scale earthmoving and material handling tasks, such as mining, quarrying, and bulk material handling. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Bulldozer Section -->
+    <div class="container mt-5" id="bulldozer-list" style="display: none;">
+        <div class="row justify-content-center">
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page1.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D65.png" class="card-img-top" alt="Komatsu-D65-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu D65 </h5>
+                            <p class="card-text">The D65 is a mid-size bulldozer known for its versatility and performance in a variety of applications, including construction, mining, and forestry.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page2.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D85.png" class="card-img-top" alt="Komatsu-D85-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu D85</h5>
+                            <p class="card-text"> The D85 is a larger bulldozer designed for heavy-duty earthmoving tasks, such as land clearing, road construction, and large-scale excavation projects. </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page3.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D155.png" class="card-img-top" alt="Komatsu-D155-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu D155</h5>
+                            <p class="card-text">The D155 is a powerful bulldozer used in demanding applications such as mining, quarrying, and major construction projects.  </p>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+                <a href="page4.html" class="card-link">
+                    <div class="card mb-3">
+                        <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D475.png" class="card-img-top" alt="Komatsu-D475-picture">
+                        <div class="card-body">
+                            <h5 class="card-title">Komatsu D475</h5>
+                            <p class="card-text">The D475 is one of the largest bulldozers offered by Komatsu, suitable for the most demanding earthmoving and mining applications.</p>
+                        </div>
+                    </div>
+                </a>
+            </div>
         </div>
     </div>
 </div>
 
+<script>
+    function excavator_button(){
+        var x = document.getElementById("excavator-list");
 
+        if(x.style.display === "none"){
+            x.display = "inline"
+        }
+        else {
+            x.style.display = "none"
+        }
+    }
+
+    function loader_button(){
+        var x = document.getElementById("loader-list");
+
+        if(x.style.display === "none"){
+            x.display = "inline"
+        }
+        else {
+            x.style.display = "none"
+        }
+    }
+
+    function bulldozer_button(){
+        var x = document.getElementById("bulldozer-list");
+
+        if(x.style.display === "none"){
+            x.display = "inline"
+        }
+        else {
+            x.style.display = "none"
+        }
+    }
+
+</script>
 
 
 </body>
