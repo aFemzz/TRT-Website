@@ -92,9 +92,9 @@
     <div class="container mt-5" id="excavator-list" style="display: none;" >
         <div class="row justify-content-center">
             <div class="col-md-3"> 
-                <a href="page1.html" class="card-link">
+                <a href="catalogue/komatsu/excavator1.php" class="card-link">
                     <div class="card mb-3">
-                        <img src="assets/komatsu_catalogue/excavator/Komatsu PC2000-11 Hydraulic Excavator.png" class="card-img-top" alt="...">
+                        <img src="assets/komatsu_catalogue/excavator/Komatsu PC2000-11 Hydraulic Excavator.png" class="card-img-top" alt="Komatsu-PC2000-11-picture">
                         <div class="card-body">
                             <h5 class="card-title">Komatsu PC2000-11 Hydraulic Excavator </h5>
                             <p class="card-text">The Komatsu PC2000-11 is a high-performance hydraulic excavator designed for large-scale mining and quarrying operations.</p>

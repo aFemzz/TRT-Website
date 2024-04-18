@@ -60,11 +60,25 @@
                 <p class="text-start fs-5 ">The Komatsu PC2000-11 is a formidable hydraulic excavator specifically engineered for high-volume mining and quarrying tasks.  </p>
                 <p class="text-start fs-5">Boasting a sturdy build, this machine is equipped with a potent engine and cutting-edge hydraulic technology, enabling it to tackle demanding excavation projects with ease.  </p>
                 <p class="text-start fs-5"> Its advanced features ensure efficient material handling and excavation, making it a reliable choice for operations in rugged environments.</p>
-                <button type="button" class="btn btn-outline-success btn-lg" data-bs-toggle="modal" data-bs-target="#priceModal">Order</button>
+                <button type="button" class="btn btn-outline-success btn-lg" data-bs-toggle="modal" data-bs-target="#priceModal">View Price</button>
+            </div>
+
+            <div class="container mt-2">
+                <h2 class="fs-1" style="font-weight: 1000;"> SPECIFICATION </h2>
+                <p class="text-start fs-5 mt-3">Operating Weight: Approximately 194,000 kg (427,694 lbs)</p>
+                <p class="text-start fs-5">Engine Power: Komatsu SAA12V140E-7 diesel engine with a net power of around 882 kW (1,180 HP) at 1800 rpm</p>
+                <p class="text-start fs-5"> Bucket Capacity: Depending on configuration and application, bucket capacities typically range from 11 to 13 cubic meters (14 to 17 cubic yards)</p>
+                <p class="text-start fs-5">Maximum Digging Depth: Approximately 8.2 meters (27 feet)</p>
+                <p class="text-start fs-5"> Maximum Reach at Ground Level: Approximately 15.6 meters (51 feet)</p>
+                <p class="text-start fs-5">Fuel Tank Capacity: Around 3,750 liters (992 gallons)</p>
+                <p class="text-start fs-5">Hydraulic System: Advanced hydraulic system with multiple pumps and valves for precise control and high efficiency</p>
+                <p class="text-start fs-5">Undercarriage: Robust undercarriage design for stability and durability in challenging terrain</p>
+                <p class="text-start fs-5"> Operating Voltage: 24 volts</p>
             </div>
         </div>
     </div>
 </section>
+
 
 <!-- Modal -->
 <div class="modal fade" id="priceModal" tabindex="-1" aria-labelledby="priceModalLabel" aria-hidden="true">
@@ -91,12 +105,8 @@
   </div>
 </div>
 
-<script>
-    // Function to format number with dots for every three digits
-    function formatNumberWithDots(number) {
-        return number.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ".");
-    }
 
+<script>
     // Function to calculate the final price based on lease duration
     function calculatePrice() {
         const leaseDuration = parseInt(document.getElementById('leaseDuration').value);
@@ -122,11 +132,8 @@
         const markupAmount = (originalPrice * markupPercentage) / 100;
         const finalPrice = originalPrice + markupAmount;
 
-        // Format final price with dots for every three digits
-        const formattedPrice = formatNumberWithDots(finalPrice);
-
         // Update final price in the modal
-        document.getElementById('finalPrice').textContent = `Rp.${formattedPrice}`;
+        document.getElementById('finalPrice').textContent = `Rp.${finalPrice}`;
     }
 
     // Add event listener to the lease duration select element
