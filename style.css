@@ -40,24 +40,29 @@ body{
     background-color: rgba(255, 255, 255, 0.5); 
     padding: 10px 20px;
     border-radius: 10px;
-  }
-  .transparent-container:hover {
+}
+
+.transparent-container:hover {
     background-color: rgba(255, 255, 255, 0.5); 
-  }
-  .menu-item {
+}
+
+.menu-item {
     display: inline-block;
     margin-right: 15px;
-  }
-  .menu-item a {
+    text-decoration: none;
+}
+
+.btn-transparent {
     font-size: 18px;
     font-weight: bold;
     color: black;
-    text-decoration: none;
-    transition: all 0.3s ease-in-out;
-  }
-  .menu-item a:hover {
-    color: red;
-  }
-  .card-link {
-    text-decoration: none; /* Remove underline */
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
 }
+
+.btn-transparent:hover {
+    color: red;
+}
+

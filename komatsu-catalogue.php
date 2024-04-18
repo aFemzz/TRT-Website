@@ -75,14 +75,14 @@
     <div class="row justify-content-center">
         <div class="col-md-6">
             <div class="transparent-container text-center">
-                <div class="menu-item" >
-                    <button  onclick="excavator_button()">Excavator</button>
+                <div class="menu-item">
+                    <button class="btn-transparent" onclick="excavator_button()">Excavator</button>
                 </div>
                 <div class="menu-item">
-                    <button  onclick="loader_button()">Loader</button>
+                    <button class="btn-transparent" onclick="loader_button()">Loader</button>
                 </div>
                 <div class="menu-item">
-                    <button onclick="bulldozer_button()">Bulldozer</button>
+                    <button class="btn-transparent" onclick="bulldozer_button()">Bulldozer</button>
                 </div>
             </div>
         </div>
@@ -91,7 +91,7 @@
     <!-- Excavator Section -->
     <div class="container mt-5" id="excavator-list" style="display: none;" >
         <div class="row justify-content-center">
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page1.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/excavator/Komatsu PC2000-11 Hydraulic Excavator.png" class="card-img-top" alt="...">
@@ -103,7 +103,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page2.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/excavator/Komatsu PC4000-11 Hydraulic Excavator.png" class="card-img-top" alt="Komatsu-PC4000-11-Hydraulic-Excavator-picture">
@@ -115,7 +115,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page3.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/excavator/Komatsu PC1250-11 Hydraulic Excavator.png" class="card-img-top" alt="Komatsu-PC1250-11-Hydraulic-Excavator-picture">
@@ -127,7 +127,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page4.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/excavator/Komatsu PC210LCi-11.png" class="card-img-top" alt="Komatsu-PC210LCi-11-picture">
@@ -144,7 +144,7 @@
     <!-- Loader Section -->
     <div class="container mt-5" id="loader-list" style="display: none;">
         <div class="row justify-content-center">
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page1.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/loader/Komatsu-WA320.png" class="card-img-top" alt="Komatsu-WA320-picture">
@@ -156,7 +156,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page2.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/loader/Komatsu-WA470.png" class="card-img-top" alt="Komatsu-WA470-picture">
@@ -168,7 +168,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page3.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/loader/Komatsu-WA500.png" class="card-img-top" alt="Komatsu-WA500-picture">
@@ -180,7 +180,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page4.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/loader/WA600-Picture.png" class="card-img-top" alt="Komatsu-D475-picture">
@@ -199,7 +199,7 @@
     <!-- Bulldozer Section -->
     <div class="container mt-5" id="bulldozer-list" style="display: none;">
         <div class="row justify-content-center">
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page1.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D65.png" class="card-img-top" alt="Komatsu-D65-picture">
@@ -211,7 +211,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page2.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D85.png" class="card-img-top" alt="Komatsu-D85-picture">
@@ -223,7 +223,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page3.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D155.png" class="card-img-top" alt="Komatsu-D155-picture">
@@ -235,7 +235,7 @@
                 </a>
             </div>
 
-            <div class="col-md-3"> <!-- Adjust the column size as needed -->
+            <div class="col-md-3"> 
                 <a href="page4.html" class="card-link">
                     <div class="card mb-3">
                         <img src="assets/komatsu_catalogue/bulldozer/Komatsu-D475.png" class="card-img-top" alt="Komatsu-D475-picture">
