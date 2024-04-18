@@ -120,30 +120,16 @@
 
 <section class="Brand-Landing-Page">
 
-    <div class="container-fluid">
+    <div class="container-fluid bg-dark mt-5 text-center" style="height: 250px;" >
 
         <div class="brand-img-landing-page">
-            <img src="assets/komatsu.png" alt="komatsu-product" >
-            <img src="assets/liugong.png" alt="liugong-product">
-            <img src="assets/cat.png" alt="catterpillar-product">
+            <a href="komatsu-catalogue.php"><img src="assets/komatsu_catalogue/komatsu.png" class="img-fluid ml-3 mr-3" alt="komatsu-product"></a> 
+            <a href=""><img src="assets/liugong.png" class="img-fluid ml-3 mr-3" alt="liugong-product"></a>
+            <a href=""><img src="assets/cat.png" class="img-fluid ml-3 mr-3" alt="catterpillar-product"></a>
+            
         </div>
-
-
     </div>
-
 </section>
-
-    
-    
-
-    <div class="container mt-5">
-        <div class="row">
-            <div class="col">
-                <h1>Main Content Area</h1>
-                <p>This is the main content area where your content goes.</p>
-            </div>
-        </div>
-    </div>
 
     <div class="container mt-5">
         <div class="row">
